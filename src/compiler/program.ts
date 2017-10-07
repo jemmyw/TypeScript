@@ -2234,6 +2234,8 @@ namespace ts {
                 return needJsx() || needAllowJs();
             case Extension.Js:
                 return needAllowJs();
+            case Extension.Js6:
+                return needAllowJs();
         }
 
         function needJsx() {

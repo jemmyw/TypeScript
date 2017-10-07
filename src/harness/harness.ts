@@ -1746,7 +1746,7 @@ namespace Harness {
         }
 
         export function isJS(fileName: string) {
-            return ts.endsWith(fileName, ts.Extension.Js);
+            return ts.endsWith(fileName, ts.Extension.Js) || ts.endsWith(fileNmae, ts.Extension.Js6);
         }
         export function isJSX(fileName: string) {
             return ts.endsWith(fileName, ts.Extension.Jsx);

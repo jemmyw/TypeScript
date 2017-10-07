@@ -4072,6 +4072,7 @@ namespace ts {
         Tsx = ".tsx",
         Dts = ".d.ts",
         Js = ".js",
+        Js6 = ".es6",
         Jsx = ".jsx"
     }
 
